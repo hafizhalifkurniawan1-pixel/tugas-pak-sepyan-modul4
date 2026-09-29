@@ -1,37 +1,39 @@
-# flutter_application_1
+# Modul 04 - Portal Pengumuman (Fase A)
 
-A new Flutter project.
+Praktikum Modul 04: Future & REST API Dasar.
+Aplikasi portal pengumuman yang menampilkan data dari server API dengan 4 keadaan (State).
 
-## Getting Started
+## Bukti Keadaan (State) Layar
 
-This project is a starting point for a Flutter application.
+### 1. Keadaan Memuat (Loading)
+![Keadaan Loading](screenshots/loading.jpeg)
+*Tampilan indikator loading sebelum data tiba dari server.*
 
-A few resources to get you started if this is your first Flutter project:
+### 2. Keadaan Berhasil (Success)
+![Keadaan Berhasil](screenshots/berhasil.jpeg)
+*Tampilan daftar pengumuman setelah data berhasil diambil dari server.*
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+### 3. Keadaan Kosong (Empty)
+![Keadaan Kosong](screenshots/kosong.jpeg)
+*Tampilan ketika kategori yang dipilih tidak memiliki data.*
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### 4. Keadaan Gagal (Error)
+![Keadaan Gagal](screenshots/Eror.jpeg)
+*Tampilan pesan error dan tombol coba lagi ketika koneksi internet terputus.*
 
+---
 
 # Laporan Praktikum Modul 01: Mobile Ecosystem, Flutter Setup & Profile App
 
-- **Nama**: [Hafizh ALif Kurniawan]
+- **Nama**: [Hafizh Alif Kurniawan]
 - **NIM**: [362558302147]
-- **Kelas / Prodi**: 2C/ TRPL
+- **Kelas / Prodi**: 2C / TRPL
 - **Mata Kuliah**: Rekayasa Kebutuhan Perangkat Lunak (Semester 3)
-
----
 
 ## 1. Ringkasan Aktivitas
 [pada praktikum ini saya bisa mengerti dasar-dasar pengembangan aplikasi mobile, melakukan instalasi dan konfigurasi Flutter menggunakan perintah flutter doctor, dan juga merancang aplikasi profil sederhana selain itu saya juga mepelajari struktur direktori proyek flutter serta menjalankan aplikasi emulator android]
 
 ## 2. Bukti Tangkapan Layar (Running App)
-[Sertakan minimal 2 screenshot bukti aplikasi profil berjalan di emulator atau HP fisik Anda]
-
 ![Screenshot Running 1](./screenshots/Screenshot%202026-09-07%20191408.png)
 ![Screenshot Running 2](./screenshots/Screenshot%202026-09-07%20191339.png)
 
